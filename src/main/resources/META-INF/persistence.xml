@@ -8,10 +8,12 @@
 
 	<persistence-unit name="persistenceJpa"
 		transaction-type="RESOURCE_LOCAL">
+		
+		<class>co.utp.jdelgado.jpa.modelo.Servicios</class>
 
 		<properties>
-			<property name="org.postgresql"
-				value="postgresql" /> <!-- DB Driver -->
+			<property name="javax.persistence.jdbc.driver"
+				value="org.postgresql.Driver" /> <!-- DB Driver -->
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:postgresql://localhost/jpa" /> <!-- BD Mane -->
 			<property name="javax.persistence.jdbc.user" value="kyndo" /> <!-- DB User -->

@@ -12,8 +12,8 @@
 		<class>co.utp.jdelgado.jpa.modelo.Servicios</class>
 
 		<properties>
-			<property name="javax.persistence.jdbc.driver"
-				value="org.postgresql.Driver" /> <!-- DB Driver -->
+			<property name="javax.persistence"
+				value="persistence-api" /> <!-- DB Driver -->
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:postgresql://localhost/jpa" /> <!-- BD Mane -->
 			<property name="javax.persistence.jdbc.user" value="kyndo" /> <!-- DB User -->
